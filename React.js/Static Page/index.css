@@ -1,0 +1,44 @@
+/*BODY*/
+body {
+    margin: 0;
+}
+.nav-bar, .content {
+    width: 70%;
+    margin: auto;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    background-color: #f1f1f1;
+}
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 15px 0;
+}
+.logo {
+    width: 70px;
+}
+.nav-li {
+    padding: 0 8px;
+}
+/* CONTEÚDO */
+.content {
+    padding: 40px 0;
+}
+h1, ol li {
+    font-family: 'arial';
+}
+.footer {
+    background: #b1b1b1;
+    padding: 20px 0;
+    text-align: center;
+}
