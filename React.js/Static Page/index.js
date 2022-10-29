@@ -42,7 +42,7 @@ function Page() {
     )
 }
 ReactDOM.render(
-        <Page />,
+        <JavaScript />,
     document.getElementById('root')
 )
 
